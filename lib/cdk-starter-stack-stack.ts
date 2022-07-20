@@ -40,8 +40,7 @@ export class CdkStarterStackStack extends Stack {
         // refer to:        https://auth0.com/docs/secure/tokens/id-tokens
         // For AWS Cognito: https://cognito-idp.<region>.amazonaws.com/<user pool id>
         // refer to:        https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-using-tokens-with-identity-providers.html
-        IIS_URL:
-          'https://cognito-idp.ap-southeast-1.amazonaws.com/ap-southeast-1_jkM0CgrEF',
+        IIS_URL: 'https://<url>.com',
       },
     });
 
